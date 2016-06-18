@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background: url('../img/header2.png') no-repeat top center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -30,10 +30,16 @@ body {
 }
 
 .headline h2 {
-    font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    font-size: 30px;
+    background: #aF2;
+    background: rgba(125,15,25,0.9);
 }
+
+.headline h3 {
+    vertical-align: text-top;
+    font-size: 30px;
+}
+
 
 .featurette-divider {
     margin: 80px 0;
